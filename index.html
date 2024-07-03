@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a3d387ba32.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Desafío animaciones</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav" id="navegacion">
+        <a href="index.html" class="nav-a-logo">
+          <img src="./assets/logo/logo-white.svg" alt="logo" class="nav-logo" />
+        </a>
+        <ul class="nav-lista">
+          <li class="nav-elemento">
+            <a href="#navegacion" class="nav-enlace navegacion">Navegación</a>
+          </li>
+          <li class="nav-elemento">
+            <a href="#main"" class="nav-enlace">Imágenes</a>
+          </li>
+          <li class="nav-elemento">
+            <a href="#footer" class="nav-enlace">Pie de página</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main" id="main">
+
+        <input type="radio" name="card-img" id="img1" checked>
+        <input type="radio" name="card-img" id="img2">
+        <input type="radio" name="card-img" id="img3">
+        <input type="radio" name="card-img" id="img4">
+
+        <div class="card img1" id="card1">
+          <img
+            src="./assets/img/img1.jpg"
+            alt="Descripción de la imagen"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h1 class="card-title">Precio: $125.000</h1>
+          </div>
+        </div>
+        <div class="card img2 card-hidden" id="card2">
+          <img
+            src="./assets/img/img2.jpg"
+            alt="Descripción de la imagen"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h1 class="card-title">Precio: $205.000</h1>
+          </div>
+        </div>
+        <div class="card img3 card-hidden" id="card3">
+          <img
+            src="./assets/img/img3.jpg"
+            alt="Descripción de la imagen"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h1 class="card-title">Precio: $180.000</h1>
+          </div>
+        </div>
+        <div class="card img4 card-hidden" id="card4">
+          <img
+            src="./assets/img/img4.jpg"
+            alt="Descripción de la imagen"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h1 class="card-title">Precio: $230.000</h1>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <label for="img1">1</label>
+          <label for="img2">2</label>
+          <label for="img3">3</label>
+          <label for="img4">4</label>
+        </div> 
+
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer-iconos">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="footer-derechos">
+          <p>Todos los derechos reservados</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
